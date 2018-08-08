@@ -1,0 +1,30 @@
+<html>
+	<head> 
+		<script src="script.js"></script>
+		<style>
+			.selected {
+				border: 1px solid blue;
+			}
+		</style>
+	</head>
+	<body>
+	Text <input id="text" type="text"> 
+	Color <input id="color" type="text">
+	Marker <select id="marker" >
+				<option>square</option>
+				<option>disk</option>
+				<option>circle</option>
+		   </select>
+		   
+    <br> 
+	<input onClick="addElement()" type="submit" value="Create">
+	<input onClick="changeElement()" type="submit" value="Change current">
+	<input onClick="removeElement()" type="submit" value="Delete current">
+	<ul id="markerList">
+	</ul> 
+
+	
+	</body>
+</html>
+
+
